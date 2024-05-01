@@ -39,3 +39,5 @@ sleep 1
 scripts/rpc.py nvmf_subsystem_add_ns $ctrl_nqn nvme0n2
 scripts/rpc.py nvmf_subsystem_add_ns $ctrl_nqn nvme1n2
 scripts/rpc.py nvmf_subsystem_add_listener $ctrl_nqn -t tcp -a $host_ip -s 23789
+
+wait
